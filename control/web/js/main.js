@@ -23,7 +23,7 @@ detener.addEventListener("click",function(){
 })
 
 function callSet(accion){
-    axios.get('http://localhost/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+accion, {
+    axios.get('http://ec2-3-128-188-252.us-east-2.compute.amazonaws.com/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+accion, {
     
 
   })
