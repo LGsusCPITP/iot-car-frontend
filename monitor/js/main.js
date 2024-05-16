@@ -4,7 +4,7 @@ let respuesta = document.getElementById("respuesta");
 
 
 function callGetRegistro(){
-    axios.get('http://localhost/iot-car-control/back-end/apis/getRegistro.php', {
+    axios.get('http://ec2-3-128-188-252.us-east-2.compute.amazonaws.com/iot-car-control/back-end/apis/getRegistro.php', {
     
 
   })
